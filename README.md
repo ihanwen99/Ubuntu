@@ -44,6 +44,10 @@ export PATH="/你的miniconda路径/bin:$PATH"
 然后执行
 
 source ~/.bashrc
+#### 进入conda的环境
+使用 conda list 来测试就好啦
+#### conda的进阶使用
+https://www.jianshu.com/p/edaa744ea47d
 
 
 ### CUDA从入门到精通
