@@ -14,7 +14,7 @@ https://www.jianshu.com/p/06a960d991aa
 ### Github 中 md 文件
 在线的Markdown编辑器
 
-http://mahua.jser.me/
+http://mahua.jser.me/ #好像不支持中文输入诶
 
 https://blog.csdn.net/shaukon/article/details/78173911
 
@@ -31,3 +31,17 @@ wget -c https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod 777 Miniconda3-latest-Linux-x86_64.sh #给执行权限
 
 bash Miniconda3-latest-Linux-x86_64.sh #运行
+
+安装成功后，打开一个新的terminal，使用which python命令查看python的路径是否已经指向miniconda中的python。
+#### 如果需要修改路径
+修改~/.bashrc，添加以下这行（设置环境变量）
+
+export PATH="/你的miniconda路径/bin:$PATH"
+
+然后执行
+
+source ~/.bashrc
+
+
+### CUDA从入门到精通
+https://blog.csdn.net/qq_30263737/article/details/81235580
