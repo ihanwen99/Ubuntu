@@ -46,9 +46,16 @@ export PATH="/你的miniconda路径/bin:$PATH"
 source ~/.bashrc
 #### 进入conda的环境
 使用 conda list 来测试就好啦
+#### 添加清华源（但是清华源也要倒闭了）
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
 #### conda的进阶使用
 https://www.jianshu.com/p/edaa744ea47d
-
 
 ### CUDA从入门到精通
 https://blog.csdn.net/qq_30263737/article/details/81235580
