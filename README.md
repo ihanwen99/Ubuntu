@@ -16,6 +16,8 @@ https://www.jianshu.com/p/06a960d991aa
 
 http://mahua.jser.me/ #好像不支持中文输入诶
 
+https://www.zybuluo.com/mdeditor #我现在用这个，就是反应速度有一丢丢的延迟
+
 https://blog.csdn.net/shaukon/article/details/78173911
 
 https://www.jianshu.com/p/399e5a3c7cc5
@@ -35,11 +37,8 @@ bash Miniconda3-latest-Linux-x86_64.sh #运行
 安装成功后，打开一个新的terminal，使用which python命令查看python的路径是否已经指向miniconda中的python。
 #### 如果需要修改路径
 修改~/.bashrc，添加以下这行（设置环境变量）
-
 export PATH="/你的miniconda路径/bin:$PATH"
-
 然后执行
-
 source ~/.bashrc
 
 
