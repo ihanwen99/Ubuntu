@@ -27,3 +27,16 @@ https://www.zybuluo.com/mdeditor #反应速度有一丢丢的延迟 && 显示的
 https://blog.csdn.net/shaukon/article/details/78173911
 
 https://www.jianshu.com/p/399e5a3c7cc5
+
+
+
+### 190516 Github 取消 fork 别人的 repository
+
+1.进入已fork的repo内
+
+2.进入settings的options
+
+3.页面拉到最底，在Danger Zone直接delete this repository即可。
+
+需要输入repo的名字才能确认删除，这一步实际上就是取消fork了。
+
