@@ -16,3 +16,8 @@
 
 190515 Linux ssh 入门
 
+190518 Windows下面使用Anaconda配置多Python环境
+
+190518 继续学习PyTorch
+
+190519 继续学习PyTorch
