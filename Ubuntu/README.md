@@ -65,3 +65,26 @@ https://www.jianshu.com/p/edaa744ea47d
 3. 随后会提示确认或者取消，输入y确认创建
 
 4. 到此环境就创建成功了：输入source activate *(环境名) 进入我们创建的环境
+
+#### 删除自己添加的源
+
+`conda config --remove-key channels`
+
+#### Conda的信息
+
+`conda info`
+
+#### 现在使用交大源（也不行诶。。。）
+
+后记：为什么要用源，我们可以直接使用交大的网络来链接官方原本的源。。。
+
+- pkgs/free: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/free`
+- pkgs/main: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/main`
+- pkgs/mro: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/mro`
+- pkgs/msys2: `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/msys2`
+- pkgs/pro: (deprecated) `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/pro`
+- pkgs/r: (empty) `conda config --add channels https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/r`
+
+#### 设置搜索时显示通道地址
+
+`conda config --set show_channel_urls yes`
