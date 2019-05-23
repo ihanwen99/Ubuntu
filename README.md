@@ -18,6 +18,8 @@
 
 190518 Windows下面使用Anaconda配置多Python环境
 
-190518 继续学习PyTorch
+190518 学习PyTorch[2]
 
-190519 继续学习PyTorch
+190519 继续学习PyTorch[3]
+
+190523 Linux下的anaconda配置
