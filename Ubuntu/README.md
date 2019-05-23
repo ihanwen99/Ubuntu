@@ -58,7 +58,7 @@ https://www.jianshu.com/p/edaa744ea47d
 
 1. 输入conda,进入conda环境
 
-2. conda create --name 环境名称 python==3.7
+2. conda create -n *（环境名称） python==3.7
 
    此处输入你要创建的环境名称，和你需要的python版本
 
