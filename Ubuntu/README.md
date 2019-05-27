@@ -88,3 +88,6 @@ https://www.jianshu.com/p/edaa744ea47d
 #### 设置搜索时显示通道地址
 
 `conda config --set show_channel_urls yes`
+
+#### Conda常用命令整理
+https://blog.csdn.net/menc15/article/details/71477949
