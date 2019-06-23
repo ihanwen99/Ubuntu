@@ -40,3 +40,16 @@ https://www.jianshu.com/p/399e5a3c7cc5
 
 需要输入repo的名字才能确认删除，这一步实际上就是取消fork了。
 
+### 190601 md语言学习
+居中：
+<center>诶嘿</center>
+左对齐：
+<p align="left">诶嘿</p>
+右对齐：
+<p align="right">诶嘿</p>
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Venn4.svg/150px-Venn4.svg.png" title="hanwen" alt="123"  />
+
+
+http://xianbai.me/learn-md/article/syntax/links.html
